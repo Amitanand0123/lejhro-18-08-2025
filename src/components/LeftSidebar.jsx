@@ -21,8 +21,8 @@ const LeftSidebar = ({ activeSection }) => {
                   activeSection === 'home5' || activeSection === 'footer' ? 'bg-black' : 'bg-white'
                 } ${
                   activeSection === key 
-                    ? 'w-24 h-1' // Active: longer and thicker line
-                    : 'w-16 h-0.5' // Inactive: shorter and thinner line
+                    ? 'w-24 h-1'
+                    : 'w-16 h-0.5'
                 }`}
               ></div>
               
